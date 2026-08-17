@@ -3,7 +3,6 @@
 
   var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  /* Nav gets a translucent blur once the page scrolls, like apple.com */
   var nav = document.querySelector(".nav");
   if (nav) {
     var setNavState = function () {
