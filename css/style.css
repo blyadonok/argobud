@@ -692,7 +692,7 @@ body.menu-open { overflow: hidden; }
   display: block;
   margin-bottom: 12px;
 }
-.step h4 { font-size: 20px; font-family: var(--font-serif); font-weight: 400; letter-spacing: -0.02em; margin-bottom: 8px; }
+.step h3 { font-size: 20px; font-family: var(--font-serif); font-weight: 400; letter-spacing: -0.02em; margin-bottom: 8px; }
 .step p { font-family: var(--font-mono); font-size: 13px; color: var(--color-lichen); line-height: 1.5; margin: 0; }
 
 /* ---------- Table ---------- */
@@ -816,7 +816,7 @@ footer {
   margin-top: 16px;
   max-width: 260px;
 }
-.footer-col h5 {
+.footer-col h3 {
   font-family: var(--font-mono);
   font-size: 12px;
   font-weight: 500;
