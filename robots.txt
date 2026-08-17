@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://shcheben-prime.ua/sitemap.xml
+Sitemap: https://argobud.com.ua/sitemap.xml
