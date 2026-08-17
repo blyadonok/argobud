@@ -108,11 +108,12 @@
   inset: 0;
   border-radius: 50%;
   pointer-events: none;
+  border: 2px solid rgba(76,175,80,0.6);
   animation: call-fab-pulse 1.15s ease-out 3;
 }
 @keyframes call-fab-pulse {
-  0% { box-shadow: 0 0 0 0 rgba(76,175,80,0.6); }
-  100% { box-shadow: 0 0 0 18px rgba(76,175,80,0); }
+  0% { transform: scale(1); opacity: 1; }
+  100% { transform: scale(1.5); opacity: 0; }
 }
 
 @media (max-width: 600px) {
@@ -895,7 +896,7 @@ footer {
 
 /* hero entrance on load, no scroll trigger needed */
 [data-hero] {
-  opacity: 0;
+  opacity: 1;
   transform: translateY(24px);
   animation: hero-in 1s var(--ease-out) forwards;
 }
@@ -905,8 +906,8 @@ footer {
 [data-hero="4"] { animation-delay: 0.44s; }
 [data-hero="5"] { animation-delay: 0.57s; }
 @keyframes hero-in {
-  from { opacity: 0; transform: translateY(24px); }
-  to { opacity: 1; transform: translateY(0); }
+  from { transform: translateY(24px); }
+  to { transform: translateY(0); }
 }
 
 .accent-bars span {
