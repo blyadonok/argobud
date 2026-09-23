@@ -954,7 +954,8 @@ footer {
   .hero h1 { font-size: 40px; }
   .hero .lede { font-size: 15px; }
   .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
-  .trust-strip { flex-wrap: wrap; gap: 16px; }
+  .trust-strip { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px 16px; }
+  .trust-item { max-width: none; }
   .cta-band { padding: 40px 20px; }
   .cta-band h2 { font-size: 32px; }
   .footer-grid { grid-template-columns: 1fr; }
